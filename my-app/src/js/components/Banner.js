@@ -1,4 +1,5 @@
 import React from 'react';
+
  
 // Mise en place de la bannière
 const Banner = ({ src, alt, text }) => {

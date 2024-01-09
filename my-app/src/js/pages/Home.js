@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
             <Navigation />
-           <Banner src='../img/img_source.png'/>
+           <Banner src='../img/img_source.png' alt=' Image de la montagne'/>
        
 
 
