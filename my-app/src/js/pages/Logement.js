@@ -5,7 +5,7 @@ const Logement = () => {
     return (
         <div>
             <Navigation/>
-            
+        
         </div>
     );
 };
