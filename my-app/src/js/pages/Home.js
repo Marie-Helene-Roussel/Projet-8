@@ -8,11 +8,11 @@ const Home = () => {
     return (
         <div>
             <Navigation />
-           <Banner src='../../../src/img/img_source.png'/>
+           <Banner src='../img/img_source.png'/>
 
 
 
-           
+
            <Footer/>
            
             
