@@ -9,7 +9,7 @@ const Home = () => {
         <div>
             <Navigation />
            <Banner src='../img/img_source.png'/>
-           <Card />
+       
 
 
 
