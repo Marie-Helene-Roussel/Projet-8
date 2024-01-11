@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import dblogement from "../../data/data.json"
 
+// les cadre où se trouve les images des logements
 const Card = () => {
     return (
         <div className='gallery'>
