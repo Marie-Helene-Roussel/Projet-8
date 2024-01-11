@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import dblogement from "../../data/data.json"
 
-function Card() {
+const Card = () => {
     return (
         <div className='gallery'>
             {dblogement.map((logement, index) => (
