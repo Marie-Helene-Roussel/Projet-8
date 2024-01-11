@@ -2,14 +2,18 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 import Banner from '../components/Banner';
 import Footer from '../components/Footer';
+import logo from '../../img/img_source.png';
+
+
+
 
 
 const Home = () => {
     return (
         <div>
             <Navigation />
-           <Banner src='../img/img_source.png' alt=' Image de la montagne'/>
-       
+           <Banner src={logo} alt=' Image de la montagne en bannière'/>
+
 
 
 
