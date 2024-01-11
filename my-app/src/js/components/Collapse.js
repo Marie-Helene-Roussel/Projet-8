@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import arrow from "../../asset/font/arrow_back_ios-24px 2.svg";
+import arrow from "../../img/arrow_back.png";
 
 const Collapse = ({ titleKey, textKey }) => {
   // ça permet de déterminer si le texte s'affiche et qu'il est ouvert! il est par défaut en faux
@@ -15,13 +15,13 @@ const Collapse = ({ titleKey, textKey }) => {
 
   // implémentation de la liste à puces
   const contentElement = bulletedList ? (
-    <ul className={'collapse${ isExpanded ? "-active" : "" }  '}>
+    <ul className={`collapse${ isExpanded ? "-active" : "" }  `}>
       {textKey.map((item, index) => (
         <li key={index}>{item}</li>
       ))}
     </ul>
   ) : (
-    <p className={'collapse${ isExpanded ? "-active" : ""}'}> {textKey} </p>
+    <p className={`collapse${ isExpanded ? "-active" : ""}`}> {textKey} </p>
   );
 
   // génération du de la div qui contient la description et le titre de chaque logement.
