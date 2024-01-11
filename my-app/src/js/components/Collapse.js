@@ -38,6 +38,6 @@ const Collapse = ({ titleKey, textKey }) => {
       {contentElement}
     </div>
   );
-  }
+};
 
 export default Collapse;
