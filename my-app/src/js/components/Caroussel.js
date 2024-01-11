@@ -21,6 +21,7 @@ const prevSlide = () => {
   );
 };
 
+// fonction pour retourner le résultat et faire fonctionner le carroussel
 return (
   <div className="slider-container">
     <img src={arrowLeft} onClick={prevSlide} alt="flèche de gauche" />
@@ -34,6 +35,6 @@ return (
   </div>
 );
 
-// fonction pour retourner le résultat et faire fonctionner le carroussel
+
 
 export default Caroussel;
