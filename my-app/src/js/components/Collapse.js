@@ -24,6 +24,8 @@ const Collapse = ({ titleKey, textKey }) => {
     <p className={'collapse${ isExpanded ? "-active" : ""}'}> {textKey} </p>
   );
 
+  // génération du de la div qui contient la description et le titre de chaque logement.
+
   return (
     <div className="description-container">
       <div className="main-deroulant">
