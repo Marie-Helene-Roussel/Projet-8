@@ -1,3 +1,4 @@
+/* Il s'agit de la mise en forme des menus déroulant*/
 .description-container {
     width: 100%;
     margin-bottom: -30px;
@@ -54,7 +55,7 @@
       
     }
   }
-
+/* Mise en forme pour mobile*/
   @media screen and (max-width: 600px) 
   {
     .description-container {

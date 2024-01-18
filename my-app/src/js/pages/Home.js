@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import logo from "../../img/img_source.png";
 import Card from "../components/Card";
 
-// la page principal du site
+// la page d'accueil du site
 
 const Home = () => {
   return (

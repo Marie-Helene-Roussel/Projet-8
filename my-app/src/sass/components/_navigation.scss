@@ -1,3 +1,4 @@
+/* Mise en forme pour la navigation Accueil et à propos*/
 nav {
     max-width: 1240px;
     width:100%;
@@ -54,7 +55,7 @@ nav {
             }
 }
 }
-
+/* Format mobile*/
 @media screen and (max-width : 1250px) {
   nav {
     padding:0 25px;

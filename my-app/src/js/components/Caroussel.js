@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import arrowLeft from "../../img/arrow_left.svg";
-import arrowRight from "../../img/arrow_right.svg";
+import arrowLeft from "../../img/arrow_forward.png";
+import arrowRight from "../../img/arrow_back.png";
 
 const Caroussel = ({ data }) => {
   // Il s'agit de la position actuelle de la slide
@@ -23,9 +23,10 @@ const Caroussel = ({ data }) => {
   // fonction pour retourner le résultat et faire fonctionner le carroussel
   const Carousel = () => {
     return (
-      <div className="slider-container">
-        <img src={arrowLeft} onClick={prevSlide} alt="flèche de gauche" />
-        <img src={arrowRight} onClick={nextSlide} alt="flèche de droite" />
+      <div className="slider-container slider-arrow">
+        <img className="slider-arrow arrow-left" src={arrowLeft} onClick={prevSlide} alt="flèche de gauche" />
+        <img className="slider" src={data.pictures[actuelSlide]} alt="visuel du logement" />
+        <img className="slider-arrow arrow-right" src={arrowRight} onClick={nextSlide} alt="flèche de droite" />
 
         <div className="cont-container">
           <p>

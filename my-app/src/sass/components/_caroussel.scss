@@ -1,20 +1,22 @@
+/* Il s'agit de la mise en forme du caroussel, comme par exemple la mise en 
+forme des flèches gauches et droites*/
 .slider-container {
     position: relative;
 
     .slider-arrow {
         position: absolute;
-        height: 79px;
-        width: 46px;
+        height: 90px;
+        width: 5%;
         top: 50%;
         transform: translateY(-50%);
     }
     .arrow-left {
         cursor: pointer;
-        left: 15px;
+        right: 15px;
     }
     .arrow-right {
         cursor: pointer;
-        right: 15px;
+        left: 15px;
     }
 
     .slider{
@@ -32,6 +34,15 @@
         color: $colorwhite;
         p {
             font-size: 18px;
+        }
+    }
+}
+/* Mise en forme pour mobile*/
+@media screen and (max-width: 600px) 
+{
+    .cont-container {
+        p {
+            display: none;
         }
     }
 }

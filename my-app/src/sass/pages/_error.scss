@@ -1,3 +1,4 @@
+/* Mise en forme pour la page d'erreur 404 */
 .error {
     display:flex;
     align-items: center;
@@ -22,6 +23,7 @@
     }
 }
 
+/* mise en forme pour mobile*/
 @media screen and (max-width: 600px) {
     .error {
         h1 {

@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import dblogement from "../../data/data.json";
 import { useParams } from "react-router-dom";
 import Collapse from "../components/Collapse";
+import Stars from "../components/Stars"
 
 const Logement = () => {
   // pour récupérer les id des logements à partir de l'url qui est dans
@@ -56,6 +57,9 @@ const Logement = () => {
                 src={logement.host.picture}
                 alt="les photos des appartements"
               />
+            </div>
+            <div>
+              < Stars rating={parseFloat(logement.rating)}   />
             </div>
           </div>
         </div>

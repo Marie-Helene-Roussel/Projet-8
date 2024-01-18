@@ -1,3 +1,4 @@
+/* mise en forme de la page à propos*/
 .about-container {
     padding: 20px 75px 40px;
     color:$color1;
@@ -6,7 +7,7 @@
     gap:25px;
     margin-top: 25px;
 }
-
+/* mise en forme pour mobile*/
 @media screen and (max-width: 600px) {
     .about-container {
         padding: 0px;

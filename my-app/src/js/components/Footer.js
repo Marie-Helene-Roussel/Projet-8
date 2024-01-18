@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "../../logo/logo-white.svg";
 
+// C'est le composant qui permet de créer le pied de page.
 const Footer = () => {
     return (
         <footer>

@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import { NavLink } from 'react-router-dom';
 import Footer from '../components/Footer';
 
+// Ici c'est la page erreur 404
 const Error = () => {
     return (
         <div>

@@ -2,6 +2,7 @@ import React from 'react';
 import logo from "../../../src/logo/LOGO.png";
 import { NavLink } from 'react-router-dom';
 
+// composant pour la navigation, les éléments accueil et à propos.
 const Navigation = () => {
     return (
        <nav>
