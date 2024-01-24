@@ -15,7 +15,7 @@ const About = () => {
             <Banner src={source2} alt="photo de la montagne"    />
             <div className='about-container'>
                 {dataAbout.map((data, index) => (
-                    <Collapse key={index} titlekey={data.title} textKey={data.text} />
+                    <Collapse key={index} titleKey={data.title} textKey={data.text} />
                 ))}
             </div>
 
