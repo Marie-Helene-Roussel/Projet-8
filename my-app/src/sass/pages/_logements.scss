@@ -67,17 +67,18 @@
     margin-top: 25px;
   }
 }
-
-@media screen and (max-width: 1250px) {
-  .header-img-container {
-    padding: 0 20px;
-  }
+/* mise en forme pour tablette*/
+@media screen and (max-width:1250px) {
+    .header-img-container {
+        padding : 0 20px;
+    }
+    
 }
-
-@media screen and (max-width: 600px) {
-  .header-img-container {
-    padding: 0 20px;
-    margin: 27px 0 0;
+/* mise en forme pour mobile*/
+@media screen and (max-width:600px) {
+    .header-img-container {
+        padding:0 20px;
+        margin : 27px 0 0;
 
     .header-container {
       flex-direction: column;
