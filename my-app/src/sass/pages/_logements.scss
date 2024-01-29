@@ -4,34 +4,46 @@
   margin: 50px auto 20px;
   color: $color1;
 
-  .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+ 
 
-    .title-container {
-      h2 {
-        font-size: 2.5rem;
-        font-weight: 500;
-      }
-      p {
-        font-size: 1rem;
-        font-weight: 500;
-      }
-      .tag {
-        margin-top: 18px;
-        display: flex;
-        gap: 10px;
-        li {
-          list-style: none;
-          text-align: center;
-          background: $color1;
-          color: $colorwhite;
-          min-width: 115px;
-          border-radius: 7px;
-          font-size: 0.8rem;
-          padding: 2px 8px;
-        }
+  .rating {
+    width: 100px;
+  }
+
+  .rolling-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 76px;
+    margin-top: 25px;
+  }
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .title-container {
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 500;
+    }
+    p {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+    .tag {
+      margin-top: 18px;
+      display: flex;
+      gap: 10px;
+      li {
+        list-style: none;
+        text-align: center;
+        background: $color1;
+        color: $colorwhite;
+        min-width: 115px;
+        border-radius: 7px;
+        font-size: 0.8rem;
+        padding: 2px 8px;
       }
     }
   }
@@ -55,30 +67,18 @@
       }
     }
   }
-
-  .rating {
-    width: 100px;
-  }
-
-  .rolling-container {
-    display: flex;
-    align-items: flex-start;
-    gap: 76px;
-    margin-top: 25px;
-  }
 }
 /* mise en forme pour tablette*/
-@media screen and (max-width:1250px) {
-    .header-img-container {
-        padding : 0 20px;
-    }
-    
+@media screen and (max-width: 1250px) {
+  .header-img-container {
+    padding: 0 20px;
+  }
 }
 /* mise en forme pour mobile*/
-@media screen and (max-width:600px) {
-    .header-img-container {
-        padding:0 20px;
-        margin : 27px 0 0;
+@media screen and (max-width: 600px) {
+  .header-img-container {
+    padding: 0 20px;
+    margin: 27px 0 0;
 
     .header-container {
       flex-direction: column;

@@ -19,8 +19,8 @@ const Home = () => {
       </header>
 
       <main>
-        <Banner src={logo} alt=" Image de la montagne en bannière" />
-
+        <Banner src={logo} text="Chez vous, partout et ailleurs" alt=" Image de la montagne en bannière" />
+        
         <div>
           <Card />
         </div>
